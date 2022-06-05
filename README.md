@@ -2,10 +2,9 @@
 
 ## INSTALL
 
-1. Clone this repository.
-```
-git clone https://github.com/GamSeong-HwaBaek/AI
-```
+1. Download all data, pre-trained model and source codes using google drive(3.64GB). You do not need to clone repo.
+https://drive.google.com/file/d/19iruHo1UDOPWwG9JWFcC_U54DNnCDfu_/view?usp=sharing
+
 2. Create new conda environment.
 ```
 conda create -n capstone python=3.8
@@ -19,8 +18,6 @@ https://pytorch.org/
 pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
 pip install gluonnlp numpy tqdm pandas
 ```
-
-5. Download [pretrained model(368MB)](https://drive.google.com/file/d/1n198rKOGaATRHaeSteLQLp9HL4EGxRRw/view?usp=sharing) and move file into `model` folder -> (model/model.pt)
 
 ## Recommending 5 Paintings
 
